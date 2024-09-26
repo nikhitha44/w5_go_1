@@ -3,5 +3,16 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World!")
+	Greeting()
+	advanceGreeting("Nikhitha")
+	advanceGreeting("Harika")
+
+}
+
+func Greeting() {
+	fmt.Println("Hey There!")
+}
+
+func advanceGreeting(name string) {
+	fmt.Printf(" Hello, %s!\n", name)
 }
